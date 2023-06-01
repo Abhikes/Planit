@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <listeners>
+     <listener  class-name="org.GenricLib.vtiger.Listners"></listener>
+   
+   </listeners>
+  <test thread-count="5" preserve-order="true" name="Test">
+    
+    <classes>
+      <class name="orgaisationModule.VerifyCreateorganisationNameTest"/>
+      <class name="orgaisationModule.CreateOrganisationByIndustryDropDown"/>
+      <class name="orgaisationModule.CreateOrganisationByOrganisationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
